@@ -1,6 +1,11 @@
 require "json" #$ include an external module $$
 require_relative "my_module" #$ include a module I wrote $$
 
+class myController < ApplicationController 
+  def myFirstMethod
+  end 
+end 
+
 def get_numbers_stack(list) #$ defining a method $$
   #$ In Ruby, you don't have to declare variable types
   stack  = [[0, []]]
