@@ -1,18 +1,17 @@
-require "json" #$ include an external module $$
-require_relative "my_module" #$ include a module I wrote $$
+require "json"
+require_relative "my_module"
 
 class myController < ApplicationController 
   def myFirstMethod
   end 
 end 
 
-def get_numbers_stack(list) #$ defining a method $$
-  #$ In Ruby, you don't have to declare variable types
+def get_numbers_stack(list) 
   stack  = [[0, []]]
   output = [] #$$
-  until stack.empty? #$ 'unless' is a unique keyword to Ruby $$
+  until stack.empty? 
     index, taken = stack.pop
-    next output << taken if index == list.size # I do NOT want to see this comment on Mindbase
+    next output << taken if index == list.size 
     stack.unshift [index + 1, taken]
     stack.unshift [index + 1, taken + [list[index]]]
   end
