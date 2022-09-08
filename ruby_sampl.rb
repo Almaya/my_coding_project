@@ -8,7 +8,7 @@ end
 
 def get_numbers_stack(list) 
   stack  = [[0, []]]
-  output = [] #$$
+  output = []
   until stack.empty? 
     index, taken = stack.pop
     next output << taken if index == list.size 
