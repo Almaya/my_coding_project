@@ -1,7 +1,7 @@
 require "json"
 require_relative "my_module"
 
-class myController < ApplicationController 
+class myController < ApplicationController  #$congratulations batch! this is a comment$$
   def myFirstMethod
   end 
 end 
