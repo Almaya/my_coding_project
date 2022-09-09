@@ -1,11 +1,11 @@
-require "json" #$ This is for Mindbase$$
+require "json" 
 require_relative "my_module"
-# $Congratulations on finishing LeWagon!
+
 class myController < ApplicationController  
   def myFirstMethod
   end 
 end 
-#$$
+
 def get_numbers_stack(list) 
   stack  = [[0, []]]
   output = []
