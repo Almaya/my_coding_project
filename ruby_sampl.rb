@@ -1,11 +1,11 @@
-require "json" 
+require "json" # $ This is how you include a module in Ruby $$
 require_relative "my_module"
-
+# $ Congratulations on graduating LeWagon!!!
 class myController < ApplicationController  
   def myFirstMethod
   end 
 end 
-
+# $$
 
 def get_numbers_stack(list) 
   stack  = [[0, []]]
