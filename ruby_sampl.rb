@@ -1,10 +1,12 @@
-require "json" 
+require "json" #$this is what you need to handle JSON$$
 require_relative "my_module"
 
+#$Congratulations Le Wagon on graduating!!
 class myController < ApplicationController  
   def myFirstMethod
   end 
 end 
+#$$
 
 def get_numbers_stack(list) 
   stack  = [[0, []]]
