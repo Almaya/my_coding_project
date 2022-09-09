@@ -1,5 +1,6 @@
 require "json" # $ This is how you include a module in Ruby $$
 require_relative "my_module"
+
 # $ Congratulations on graduating LeWagon!!!
 class myController < ApplicationController  
   def myFirstMethod
