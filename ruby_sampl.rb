@@ -1,11 +1,11 @@
-require "json"
+require "json" #$ This is for Mindbase$$
 require_relative "my_module"
-
-class myController < ApplicationController  #$congratulations batch! this is a comment$$
+# $Congratulations on finishing LeWagon!
+class myController < ApplicationController  
   def myFirstMethod
   end 
 end 
-
+#$$
 def get_numbers_stack(list) 
   stack  = [[0, []]]
   output = []
